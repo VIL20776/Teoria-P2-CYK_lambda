@@ -1,0 +1,12 @@
+nonterminal_symbols:
+  ? S
+  ? C
+terminal_symbols:
+  c: c
+  d: d
+ignored_symbols:
+start_symbol: S
+production_rules:
+  - S -> C C
+  - C -> c C
+  - C -> d
